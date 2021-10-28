@@ -49,9 +49,9 @@ int main() {
 	#endif
     // fastio
 	ios::sync_with_stdio(0);
-    cin.tie(0);
+    	cin.tie(0);
     // calling function
-    solve();
-    return 0;
+    	solve();
+	return 0;
 }
 
