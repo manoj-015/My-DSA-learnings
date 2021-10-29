@@ -32,10 +32,7 @@ template <class T> void _print(set <T> v) {cerr << "[ "; for (T i : v) {_print(i
 template <class T> void _print(multiset <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
 template <class T, class V> void _print(map <T, V> v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
 
-/*******************************************************************************************************/
-/****************-----------CODE STARTS HERE----------**************************************************/
-/*******************************************************************************************************/
-
+/*-------------------------------------CODE STARTS HERE---------------------------------------------*/
 
 void solve()
 {
@@ -43,15 +40,17 @@ void solve()
 }
 
 int main() {
-	//for debugging
-	#ifndef ONLINE_JUDGE
-		freopen("Error.txt", "w", stderr);
-	#endif
-    // fastio
+	
+#ifndef ONLINE_JUDGE
+	freopen("Error.txt", "w", stderr);
+#endif
+	
+   	 // fastio
 	ios::sync_with_stdio(0);
     	cin.tie(0);
-    // calling function
-    	solve();
+	
+  	// calling function
+	solve();
 	return 0;
 }
 
