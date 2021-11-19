@@ -1,3 +1,5 @@
+// Implemented setbit,unsetbit, checkbit, count no of set bits and print the the binary of the number using c++
+
 #include <iostream>
 using namespace std;
 
